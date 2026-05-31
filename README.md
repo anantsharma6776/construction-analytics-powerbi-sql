@@ -1,126 +1,123 @@
 # construction-analytics-powerbi-sql
 End-to-end Construction Analytics Project using Power BI, SQL, Power Query, and DAX.
+
 Construction Analytics Dashboard using Power BI & SQL
 Project Overview
-
 This project focuses on analyzing construction project performance using Power BI and SQL Server. The objective was to transform raw construction project data into interactive dashboards and business insights for executive reporting, risk analysis, and operational monitoring.
-
 The solution was developed using Power BI, Power Query, DAX, and SQL Server (SSMS) following a star schema data modeling approach.
-
+________________________________________
 Business Problem
-
 Construction companies often face challenges in:
-
-tracking project costs
-identifying high-risk tasks
-monitoring labor and equipment utilization
-managing task dependencies
-analyzing operational constraints
-
+•	tracking project costs
+•	identifying high-risk tasks
+•	monitoring labor and equipment utilization
+•	managing task dependencies
+•	analyzing operational constraints
 The goal of this project was to build an end-to-end analytics solution to help management monitor project performance and improve decision-making.
-
+________________________________________
 Tools & Technologies Used
-Power BI
-SQL Server (SSMS)
-Power Query
-DAX
-Excel / CSV Dataset
+•	Power BI
+•	SQL Server (SSMS)
+•	Power Query
+•	DAX
+•	Excel / CSV Dataset
+________________________________________
 Data Modeling
-
 Implemented a Star Schema Model using:
-
+•	Fact Table
+•	Dimension Tables
+•	One-to-Many Relationships
 Fact Table
+•	Fact_Constructions
 Dimension Tables
-One-to-Many Relationships
-Fact Table
-Fact_Constructions
-Dimension Tables
-Dim_Task
-Dim_Risk
-Dim_Labour
-Dim_Equipment
-Dim_Dependency
+•	Dim_Task
+•	Dim_Risk
+•	Dim_Labour
+•	Dim_Equipment
+•	Dim_Dependency
+________________________________________
 Dashboard Pages
 1. Executive Dashboard
 Provides a high-level overview of:
-
-Total Material Cost
-Average Task Duration
-Total Labor Required
-High Risk Tasks
-Equipment Utilization
+•	Total Material Cost
+•	Average Task Duration
+•	Total Labor Required
+•	High Risk Tasks
+•	Equipment Utilization
 Key Features
-KPI Cards
-Risk Distribution Analysis
-Material Cost Analysis
-Labor vs Equipment Monitoring
-Interactive Slicers
+•	KPI Cards
+•	Risk Distribution Analysis
+•	Material Cost Analysis
+•	Labor vs Equipment Monitoring
+•	Interactive Slicers
+________________________________________
 2. Risk Analysis Dashboard
 Focused on project risk monitoring and dependency analysis.
-
 Key Features
-Risk Distribution
-Cost by Risk Level
-Dependency Analysis
-Task Duration by Risk
-High Risk Cost Monitoring
+•	Risk Distribution
+•	Cost by Risk Level
+•	Dependency Analysis
+•	Task Duration by Risk
+•	High Risk Cost Monitoring
+________________________________________
 3. Resource & Operations Dashboard
 Focused on operational efficiency and resource optimization.
-
 Key Features
-Labor Allocation Analysis
-Equipment Usage Monitoring
-Resource Constraint Analysis
-Site Constraint Analysis
-Scatter Plot Analysis
+•	Labor Allocation Analysis
+•	Equipment Usage Monitoring
+•	Resource Constraint Analysis
+•	Site Constraint Analysis
+•	Scatter Plot Analysis
+________________________________________
 KPIs Implemented
-Total Material Cost
-Average Task Duration
-Total Labor Required
-High Risk Tasks Count
-Total Equipment Units
-Average Dependency Count
-Average Resource Constraint Score
-Average Site Constraint Score
-
+•	Total Material Cost
+•	Average Task Duration
+•	Total Labor Required
+•	High Risk Tasks Count
+•	Total Equipment Units
+•	Average Dependency Count
+•	Average Resource Constraint Score
+•	Average Site Constraint Score
+________________________________________
 SQL Analysis Performed
 Performed SQL-based business analysis using SSMS including:
-
-Risk analysis
-Cost analysis
-Dependency analysis
-Labor allocation analysis
-Equipment utilization analysis
-Ranking & Window Functions
-CTE-based business queries
+•	Risk analysis
+•	Cost analysis
+•	Dependency analysis
+•	Labor allocation analysis
+•	Equipment utilization analysis
+•	Ranking & Window Functions
+•	CTE-based business queries
+________________________________________
 DAX Features Used
-Aggregation Measures
-CALCULATE()
-COUNTROWS()
-AVERAGE()
-Dynamic Titles
-Interactive KPI Measures
+•	Aggregation Measures
+•	CALCULATE()
+•	COUNTROWS()
+•	AVERAGE()
+•	Dynamic Titles
+•	Interactive KPI Measures
+________________________________________
 Business Insights Generated
-Identified high-risk and high-cost tasks
-Analyzed dependency-heavy operations
-Monitored labor and equipment utilization
-Evaluated operational bottlenecks
-Compared project duration across risk categories
-
+•	Identified high-risk and high-cost tasks
+•	Analyzed dependency-heavy operations
+•	Monitored labor and equipment utilization
+•	Evaluated operational bottlenecks
+•	Compared project duration across risk categories
+________________________________________
 Project Outcome
 The project successfully transformed raw construction data into an interactive business intelligence solution enabling:
-
-executive-level reporting
-operational monitoring
-risk analysis
-resource optimization
-data-driven decision-making
+•	executive-level reporting
+•	operational monitoring
+•	risk analysis
+•	resource optimization
+•	data-driven decision-making
+________________________________________
 Skills Demonstrated
-Power BI Dashboard Development
-Data Modeling
-DAX Calculations
-SQL Analysis
-Power Query Transformations
-Business Intelligence Reporting
-Data Visualization
-Analytical Problem Solving
+•	Power BI Dashboard Development
+•	Data Modeling
+•	DAX Calculations
+•	SQL Analysis
+•	Power Query Transformations
+•	Business Intelligence Reporting
+•	Data Visualization
+•	Analytical Problem Solving
