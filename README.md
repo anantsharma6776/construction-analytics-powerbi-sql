@@ -42,7 +42,6 @@ Dim_Equipment
 Dim_Dependency
 Dashboard Pages
 1. Executive Dashboard
-
 Provides a high-level overview of:
 
 Total Material Cost
@@ -57,7 +56,6 @@ Material Cost Analysis
 Labor vs Equipment Monitoring
 Interactive Slicers
 2. Risk Analysis Dashboard
-
 Focused on project risk monitoring and dependency analysis.
 
 Key Features
@@ -67,7 +65,6 @@ Dependency Analysis
 Task Duration by Risk
 High Risk Cost Monitoring
 3. Resource & Operations Dashboard
-
 Focused on operational efficiency and resource optimization.
 
 Key Features
@@ -85,8 +82,8 @@ Total Equipment Units
 Average Dependency Count
 Average Resource Constraint Score
 Average Site Constraint Score
-SQL Analysis Performed
 
+SQL Analysis Performed
 Performed SQL-based business analysis using SSMS including:
 
 Risk analysis
@@ -109,8 +106,8 @@ Analyzed dependency-heavy operations
 Monitored labor and equipment utilization
 Evaluated operational bottlenecks
 Compared project duration across risk categories
-Project Outcome
 
+Project Outcome
 The project successfully transformed raw construction data into an interactive business intelligence solution enabling:
 
 executive-level reporting
